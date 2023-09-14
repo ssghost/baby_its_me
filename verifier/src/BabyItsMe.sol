@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3
 pragma solidity ^0.8.20;
 
-import "src/Verifier.sol";
+import "./Verifier.sol";
 
 contract BabyItsMe is Verifier {
     // This is the BabyJubjub public key A = (x, y) we want to impersonate.
